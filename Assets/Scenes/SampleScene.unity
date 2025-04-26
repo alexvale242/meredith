@@ -211,7 +211,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -793,7 +793,7 @@ PrefabInstance:
     - target: {fileID: 2100436027104269785, guid: cea625889edd11b48a138a576bdbb184,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2100436027104269785, guid: cea625889edd11b48a138a576bdbb184,
         type: 3}
@@ -839,6 +839,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TopDownCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417374963703507997, guid: cea625889edd11b48a138a576bdbb184,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
