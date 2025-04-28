@@ -5,7 +5,6 @@ using UnityEngine;
 public class ShipController : MonoBehaviour
 {
     public GameObject baseComponentPrefab; 
-    public float spacing = 1.1f;
 
     private Ship _ship;
 
@@ -17,16 +16,16 @@ public class ShipController : MonoBehaviour
 
     private void SpawnShip()
     {
-        foreach (var localPosition in _ship.components.Select(comp => new Vector3(comp.x * spacing, comp.y * spacing, 0)))
+        foreach (var component in _ship.Components)
         {
-            InstantiateBaseComponent(localPosition);
+            InstantiateBaseComponent(new Vector3(component.XPosition, component.YPosition), new Vector3(component.XSize, component.YSize));
         }
     }
 
-    private void InstantiateBaseComponent(Vector3 localPosition)
+    private void InstantiateBaseComponent(Vector3 localPosition, Vector3 localScale)
     {
         var component = Instantiate(baseComponentPrefab, transform);
         component.transform.localPosition = localPosition;
-        component.transform.localScale = Vector3.one; // 1x1 scale
+        component.transform.localScale = localScale;
     }
 }
