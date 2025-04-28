@@ -1,4 +1,6 @@
-﻿namespace Features.Ship.Components
+﻿using UnityEngine;
+
+namespace Features.Ship.Components
 {
     public interface IShipComponent
     {

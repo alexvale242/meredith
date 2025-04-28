@@ -1,4 +1,7 @@
-﻿namespace Features.Ship.Components
+﻿using System;
+using UnityEngine;
+
+namespace Features.Ship.Components
 {
     public class BasicComponent : IShipComponent
     {

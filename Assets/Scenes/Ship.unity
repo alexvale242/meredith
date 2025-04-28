@@ -430,7 +430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa216d80a6e13ff43888c11df2824244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  squarePrefab: {fileID: 0}
+  squarePrefab: {fileID: 6675442577544578976, guid: 28eb77ec4fa10214fbede1faefe0813f,
+    type: 3}
   laserPrefab: {fileID: 1812111433267496012, guid: 864bbca75322ed74c952c7c94dcbae12,
     type: 3}
   laserSpeed: 10
@@ -443,7 +444,7 @@ Transform:
   m_GameObject: {fileID: 1355909522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.826595, y: -0.14238138, z: -0.52073765}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
