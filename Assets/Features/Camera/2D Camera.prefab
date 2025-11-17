@@ -239,7 +239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virtualCamera: {fileID: 2771580520830971782}
   followTarget: {fileID: 6150059932186222932}
-  moveSpeed: 5
-  zoomSpeed: 5
+  moveSpeed: 20
+  zoomSpeed: 10
   minZoom: 3
-  maxZoom: 10
+  maxZoom: 200
